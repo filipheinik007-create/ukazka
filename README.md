@@ -2,6 +2,8 @@
 
 Cvičný repozitář, ve kterém se učím používat Git a GitHub od začátku.
 
+Každý commit popisuje jednu srozumitelnou změnu.
+
 ## Co si vyzkouším
 
 - ukládání změn pomocí commitů,
