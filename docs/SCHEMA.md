@@ -6,7 +6,7 @@ Když PR mění DB, aktualizuj i tuto tabulku.
 | Produkt | Složka        | Databáze  | Tabulky                 | Vlastník |
 |---------|---------------|-----------|-------------------------|----------|
 | Eshop   | `apps/eshop/` | eshop_db  | products, orders        | @filipheinik007-create |
-| CRM     | `apps/crm/`   | crm_db    | customers               | @filipheinik007-create |
+| CRM     | `apps/crm/`   | crm_db    | customers (+ telefon)   | @filipheinik007-create |
 | Sklad   | `apps/sklad/` | sklad_db  | stock                   | @filipheinik007-create |
 
 ## Vazby mezi databázemi
