@@ -3,8 +3,10 @@ function cenaKosiku(polozky) {
   return polozky.reduce((soucet, p) => soucet + p.cena * p.pocet, 0);
 }
 
-function cenaDopravy() {
-  return 99;
+const HRANICE_DOPRAVY_ZDARMA = 1500;
+
+function cenaDopravy(cenaZbozi) {
+  return cenaZbozi >= HRANICE_DOPRAVY_ZDARMA ? 0 : 99;
 }
 
 module.exports = { cenaKosiku, cenaDopravy };
