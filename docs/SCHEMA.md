@@ -17,6 +17,10 @@ Když PR mění DB, aktualizuj i tuto tabulku.
 Změna v `crm_db.customers` proto může ovlivnit i **Eshop**,
 změna v `eshop_db.products` může ovlivnit i **Sklad**.
 
+## Historie nekompatibilních změn
+
+- **v1.2.0** – `crm_db.customers.mail` přejmenován na `email`. Ověřit všechny reporty a exporty, které čtou CRM.
+
 ## Jak poznám, co se změnilo
 
 - **Na čem se pracuje:** záložka *Issues* (filtr podle labelu `produkt:*`) nebo tabule v *Projects*.
