@@ -1,0 +1,35 @@
+name: Nová funkce / změna
+description: Požadavek na novou funkci nebo úpravu
+title: "<Produkt>: "
+labels: ["typ:funkce"]
+body:
+  - type: textarea
+    id: co
+    attributes:
+      label: Co a proč
+      description: Co se má udělat a jaký problém to řeší.
+    validations:
+      required: true
+  - type: textarea
+    id: hotovo
+    attributes:
+      label: Kdy je hotovo
+      description: Kritéria přijetí, ideálně jako seznam.
+      value: |
+        - [ ] 
+  - type: dropdown
+    id: produkt
+    attributes:
+      label: Produkt
+      multiple: true
+      options: [Eshop, CRM, Sklad]
+    validations:
+      required: true
+  - type: dropdown
+    id: db
+    attributes:
+      label: Dotčená databáze
+      multiple: true
+      options: [žádná, eshop_db, crm_db, sklad_db, nevím]
+    validations:
+      required: true

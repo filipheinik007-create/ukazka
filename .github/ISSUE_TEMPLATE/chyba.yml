@@ -1,0 +1,29 @@
+name: Chyba
+description: Něco nefunguje, jak má
+title: "<Produkt>: "
+labels: ["typ:oprava"]
+body:
+  - type: textarea
+    id: popis
+    attributes:
+      label: Co se děje
+    validations:
+      required: true
+  - type: textarea
+    id: kroky
+    attributes:
+      label: Jak chybu zopakovat
+      value: |
+        1. 
+  - type: textarea
+    id: ocekavani
+    attributes:
+      label: Co jsi čekal
+  - type: dropdown
+    id: produkt
+    attributes:
+      label: Produkt
+      multiple: true
+      options: [Eshop, CRM, Sklad]
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+# Kdo schvaluje změny v jaké části (v týmu sem dáš konkrétní lidi)
+/apps/eshop/   @filipheinik007-create
+/apps/crm/     @filipheinik007-create
+/apps/sklad/   @filipheinik007-create
+/db/           @filipheinik007-create

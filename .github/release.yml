@@ -1,0 +1,16 @@
+# Rozdělení automatických release notes do sekcí podle labelů
+changelog:
+  exclude:
+    labels:
+      - ignorovat-v-release
+  categories:
+    - title: "⚠️ Nekompatibilní změny"
+      labels: ["dopad:breaking"]
+    - title: "🗄️ Změny databáze"
+      labels: ["typ:migrace"]
+    - title: "✨ Nové funkce"
+      labels: ["typ:funkce"]
+    - title: "🐛 Opravy"
+      labels: ["typ:oprava"]
+    - title: "Ostatní"
+      labels: ["*"]

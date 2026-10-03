@@ -1,0 +1,22 @@
+# Automatické labely podle změněných souborů (akce actions/labeler)
+"produkt:eshop":
+  - changed-files:
+      - any-glob-to-any-file: "apps/eshop/**"
+"produkt:crm":
+  - changed-files:
+      - any-glob-to-any-file: "apps/crm/**"
+"produkt:sklad":
+  - changed-files:
+      - any-glob-to-any-file: "apps/sklad/**"
+"db:eshop_db":
+  - changed-files:
+      - any-glob-to-any-file: "db/eshop_db/**"
+"db:crm_db":
+  - changed-files:
+      - any-glob-to-any-file: "db/crm_db/**"
+"db:sklad_db":
+  - changed-files:
+      - any-glob-to-any-file: "db/sklad_db/**"
+"typ:migrace":
+  - changed-files:
+      - any-glob-to-any-file: "db/**/migrations/**"
